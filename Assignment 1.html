@@ -22,48 +22,27 @@ div{margin-left: 50px; margin-top: 30px;
 
 }
 
-.description-container{max-width: 800px;
-margin: 40px auto 20px}
-.description-container .floating-image{
-    max-width: 400px;
-}
-.description-container .floating-image.right{
-    float:right;
-    margin-left: 100px;
-    margin-bottom: 50px;
-    
-}
-.description-container .floating-image.left{
-    float:left;
-    margin-right: 100px;
-margin-top: 100px;
-max-width: 400px;
-}
 
-.container{ margin-top: 50px;
-    border: 2px gray;
-height: 100px;
-display: flex;
-justify-content: space-evenly;
-}
+.container{ max-width: 1100px;
+    padding: 50px 0px;
+    margin: auto;
+    clear: both;
 
+}
+.half-width{ max-width: 50%;
+    float: left;
+
+}
 .bottom-section{margin-top: 300px;
     font-size:large;
 
 }
-.box{ border: 3px solid gray;
-    width: 700px;
-    margin: 10px;
-    height: 100px;
-    margin-top: 10px;
-    box-shadow: 5px 5px 10px rgb(180, 168, 168);
+.box{ max-width: 22%;
+    float: left;
+    border: 2px solid grey;
+    padding: 10px;
 }
-.footer-description{display: flex; 
-    max-width: 800px;
-    margin-top: 200px;
-    font-size:large;
-    justify-content: left  ;
-}
+
 
     
 
@@ -71,46 +50,69 @@ justify-content: space-evenly;
     </style>
 </head>
 <body bgcolor="f7f9f9">
-<div class="container">
-    <div class="description-container">
-        <img src="download.jfif" alt="" class="img-responsive floating-image right">
-
-    
-    <h1>The Chocolate Company</h1><br>
+<section class="container">
+    <div class="half-width">
+        <h1>The Chocolate Company</h1><br>
   <h3><font color="darkslategray" > About Us: </font></h3>
    <p>We are an online store that sells premium imported chocolates around Dhaka city.
     We import chocolated from USA,UK,Dubai and many more countries. We started our journey in 2017 and going strong since.
    </p> 
+    </div>
+    <div class="half-width">
+        <img src="download.jfif" alt="">
+    </div>
+        
+
+    
+    
+</section>
+
+<section class="container">
+    <div class="half-width">
+        <img src="download (1).jfif" alt="">
+   
+    </div>
+    <div class="half-width">
+        <h3 > <font color="darkslategray"> Companies that we import from:</h3>
+            <ul type="circle">
+            <li> Tesco </li>
+            <li> Asda </li>
+            <li> Nestle </li>
+            <li> Harsheys </li>
+            </ul>
+            
+    </div>
+        
+
+    
+    
+</section>
 
   
-<div class="middle-section">
-    <img src="download (1).jfif" alt="" class="img-responsive floating-image left">
-   <br><br><br><br><br> <h3 > <font color="darkslategray"> Companies that we import from:</h3>
-   <ul type="circle">
-   <li> Tesco </li>
-   <li> Asda </li>
-   <li> Nestle </li>
-   <li> Harsheys </li>
-   
-
+<section class="container">
+<div class="box">
+ <i class="fab fa-facebook"></i>
+<h2>
+Facebook
+</h2>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt fugiat consequuntur, ducimus impedit, autem unde labore quae itaque iste, cum id odit odio! Commodi quibusdam sequi voluptatibus ut ullam tempore!30</p>
 </div>
-<div class="bottom-section">
-    Our Social Media:
-</div>
-<div class="container">
-    
-    <div class="box">
-        <h3>Facebook <i class="fab fa-facebook"></i> <p><a href="https://www.facebook.com/TheChocolateCompanyBD/?ref=pages_you_manage"> Follow on Facebook </a></p></h3>
+<div class="box">
+ <i class="fab fa-twitter"></i>
+    <h2>
+    Twitter
+    </h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt fugiat consequuntur, ducimus impedit, autem unde labore quae itaque iste, cum id odit odio! Commodi quibusdam sequi voluptatibus ut ullam tempore!30</p>
     </div>
     <div class="box">
-        <h3>Instagram <i class="fab fa-instagram-square"></i><p><a href="https://www.instagram.com/thechocolatecompany_bd/">Follow on Instagram</a></p></h3>
-    </div>
-    <div class="box">
-        <h3>Twitter <i class="fab fa-twitter"></i><p><a href="https://twitter.com/iubedu">Follow us on Twitter</a></p></h3>
-    </div> <br>
-    
-      <div class="footer" >
-         <div class="footer-description"> <p >All Rights Reserved by Azmain </p></div>
+        <i class="fab fa-instagram-square"></i>
+        <h2>
+        Instagram
+        </h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt fugiat consequuntur, ducimus impedit, autem unde labore quae itaque iste, cum id odit odio! Commodi quibusdam sequi voluptatibus ut ullam tempore!30</p>
+        </div>
+</section>
+     <footer class="container">All rights reserved</footer>
 
       
 </div>
