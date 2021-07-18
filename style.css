@@ -1,0 +1,43 @@
+<style>
+h1{ color:darkslategray; size:200px;
+margin-top: 10px;}
+
+
+p{ color: darkslategray;}
+div{margin-left: 50px; margin-top: 30px;
+
+}
+
+.description-container{max-width: 800px;
+margin: 40px auto 20px}
+.description-container .floating-image{
+    max-width: 400px;
+}
+.description-container .floating-image.right{
+    float:right;
+    margin-left: 100px;
+    margin-bottom: 50px;
+    
+}
+.description-container .floating-image.left{
+    float:left;
+    margin-right: 100px;
+margin-top: 100px;
+max-width: 400px;
+}
+
+.container{ 
+display: grid;
+grid-template-columns: repeat(3,1fr);
+grid-column-gap: 40px;
+
+}
+
+.box{ height: 50px;
+    background-color: azure;
+    margin-right: 50px;
+margin-top: 50px;}
+
+
+
+    </style>
